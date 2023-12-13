@@ -1,0 +1,140 @@
+<!--Declaración de tipo de archivo-->
+<!DOCTYPE html>
+<!--Documento Raíz-->
+<html lang="es">
+    <head>
+    <!--El head sirve para agregar Archivos Externos-->
+        <title>VOGUE</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        
+        <!--Ejemplo de elemento style-->
+        
+          
+    </head>
+    <body>
+    <!--body = Estructura de la Página-->
+
+    <!--Crear encabezados-->
+    <h1>¡HOLA VOGUE!</h1> <!--Nivel más grande de encabezado-->
+    <h2>¡Edición Diciembre 2023!</h2> <!--Etiqueta de apertura + contenido + etiqueta de cierre-->
+    <h3>Otoño-Invierno</h3>
+    <h4>¡TENDENCIAS!</h4>
+
+
+    <!--Ejemplo de estilo en línea-->
+<!--<h1 style="color: blue;">VOGUE</h1>-->
+
+    <h1 id="titulo-VOGUE">MILAN FASHION WEEK</h1>
+    <main>
+        <h3>:</h3>
+        <!--Así se escribe un comentario Comando: CTRL + K después CTRL + C-->
+        
+        <!--img = image, src = source-->
+        <img src="/Users/meli/Downloads/1er Proyecto Judith Cámez/Imágenes/IMG_4332.JPG" alt="Bolsa chanel" class="bordes-redondeados imagen-de-paasarela"> <!--imagen desde Internet--> 
+
+
+        <hr> <!--Etiqueta hr = Horizontal Rule-->
+
+
+        <div> <!--Elemento div-->
+            <p>Prendas Preferidas <strong> Para Otoño-Invierno</strong>:</p> <!--strong para hacer la letra negrita-->
+            <!--em para hacer la letra cursiva-->
+            <p><em>Marcas más Vendidas</em></p> 
+            <!--Listas no ordenadas-->
+            <!--ul = unordered list-->
+                <ul id="Marcas preferidas del 2023"> 
+                    <li>Hermès</li> <!--li = list item-->
+                    <li>Christian Dior</li> 
+                    <li>Miu Miu</li>
+                    
+                </ul> 
+                <img src="/Users/meli/Downloads/1er Proyecto Judith Cámez/Imágenes/IMG_4335.JPG" alt="Bolsa" id="imagen-de-Bolsa"> <!--imagen desde nuestro dispositivo-->
+
+                <p>Producto de Skin Care <strong>+ Vendido en Otoño-Invierno</strong>:</p>
+                <!--Listas ordenadas-->
+                <ol class="lista-de-Productos"> <!--ol = ordered list-->
+                    <li><s>Estée Lauder Advanced Night</s></li> <!--Etiqueta 's' para texto tachado-->
+                    <li>Laura Mercier Luxe Indulgence</li> 
+                    <li>Givenchy Radiance oils</li> 
+                    
+
+                </ol> 
+        </div>
+            <img src="/Users/meli/Downloads/1er Proyecto Judith Cámez/Imágenes/IMG_4342.JPG" alt="Skin care" class="imagen-de-Estéen Lauder"> <!--imagen desde nuestro dispositivo-->
+        <br>
+
+         <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+         <a href="#Diseñador-1">#Diseñador 1</a>
+         <a href="#Diseñador-2">#Diseñador 2</a>
+         <a href="#Diseñador-3">#Diseñador 3</a>
+
+        <h3 id="#Diseñador-1">Karl Lagerfeld</h3>
+
+        <p>Chanel</p>
+       
+
+        <h3 id="#Diseñador-2">Maison Valentino</h3>
+        <p>Valentino</p>
+
+        <h3 id="#Diseñador-3">Stefano Gabbana y Domenico Dolce</h3>
+        <p>Dolce & Gabbana</p>
+
+        
+
+         <!--Crear enlaces externos-->
+        <p>En este link <a href="https://www.versace.com/mx/en/" target="_White" rel="noopener noreferrer">Puedes seguir nuestra pagina Aqui.</a></p>
+
+
+        <!--Enlaces con imágenes-->
+        
+        <img src="/Users/meli/Downloads/1er Proyecto Judith Cámez/Imágenes/IMG_4337.JPG" alt="Bolsa" id="imagen">
+        <img src="/Users/meli/Downloads/1er Proyecto Judith Cámez/Imágenes/IMG_4331.JPG" alt="Bolsa" id="imagen">
+
+        <!--Crear enlaces con #. Enlaces muertos o dead links-->
+        <p>Visita nuestra <a href="#" rel="noopener noreferrer">Pagina de Instagram</a></p>
+
+            <!--Formulario-->
+            <form action="/enviar-respuesta">
+                <!--Texto y botón enviar-->
+                <input type="text" placeholder="URL de tu Instagram" required>
+                <br>
+                <button type="submit">Enviar</button>
+               
+                <!--Botones de radio-->
+                <p>¿Que tipo de prenda prefieres?</p>
+                    <label for="Abrigo">
+                        <input id="Abrigo" type="radio" value="Abrigo" name="Abrigo-Chaquetas de mezclilla" checked>Chaqueta de mezclilla
+                    </label>
+                    <br>
+                    <label for="Chaqueta de mezclilla">
+                        <input id="Chaqueta de mezclilla" type="radio" value="Chaqueta de mezclilla" name="Abrigo-Chaqueta de mezclilla">Abrigo
+                    </label>
+                    <br>
+
+                <!--Casillas de verificación-->
+                <p>¿Que perfume prefieres?</p>
+                <label for="Tom Ford">
+                    <input id="Tom Ford" type="checkbox" value="Tom Ford" name="Perfume" checked> Tom Ford
+                </label>
+                <br>
+                <label for="Valentino">
+                    <input id="Valentino" type="checkbox" value="Valentino" name="Perfume"> Valentino
+                </label>
+                <br>
+                <label for="Baccarat">
+                    <input id="Baccarat" type="checkbox" value="Baccarat" name="Perfume"> Baccarat
+                </label>
+                <br>         
+            </form>
+        </main>
+        <!--pie de página-->
+        <footer>
+            <!--Etiqueta small para que el pie de página se vea más pequeño-->
+            <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+        </footer>
+     </body>
+</html>
